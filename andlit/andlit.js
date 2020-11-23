@@ -10,6 +10,12 @@ function setup() {
   bColor = "darkblue"
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+  xCenter = windowWidth / 2;
+  yCenter = windowHeight / 2;
+}
+
 function draw() {
   background(bColor);
 
