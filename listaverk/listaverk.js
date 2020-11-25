@@ -1,9 +1,12 @@
 function setup() 
 {
-    createCanvas(500, 500);
-    background("lightgrey");
+  createCanvas(windowWidth,windowHeight)
+  var cnv = createCanvas(500, 500);
+  var x = (windowWidth - width) / 2;
+  var y = (windowHeight - height) / 2;
+  cnv.position(x, y);
+  background("lightgray")
 }
-
 function draw() 
 {
   strokeWeight(0)
