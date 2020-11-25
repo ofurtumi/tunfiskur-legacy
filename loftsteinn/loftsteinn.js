@@ -34,7 +34,7 @@ function draw()
 
     for (y=0;y<15;y++){
         fill("white")
-        circle(random(width),random(y*height/5),3)
+        circle(random(width),random(y*height/5),randomGaussian(3))
     }
     u++
    }
