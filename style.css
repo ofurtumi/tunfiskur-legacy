@@ -72,7 +72,7 @@ nav{
   top: 0;
   left: 0;
   width: 100%;
-  height: 2.5%;
+  height: 2em;
 }
 
 nav ul{
@@ -127,7 +127,7 @@ img {
 .dropbtn {
   background-color: gray;
   color: white;
-  padding-bottom: .45em;
+  padding-bottom: .4em;
   font-size: 1.15em;
   font-weight: lighter;
   letter-spacing: 1px;
