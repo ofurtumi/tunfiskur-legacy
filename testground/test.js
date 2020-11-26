@@ -1,11 +1,14 @@
+let ele;
+
 function setup() 
 {
     createCanvas(windowWidth,windowHeight)
     noCursor()
     frameRate(15)    
     noStroke()
-    ele = createAudio("assets/loftsteinn.mp3")
-    ele.autoplay(true)
+    ele = createAudio("../assets/loftsteinn.mp3")
+    ele.play(true)
+    ele.loop(true)
 }
 
 let u=0
@@ -35,9 +38,5 @@ function draw()
         fill("white")                                                                           //þeirra lit er ekki stjórnað af ytri loopunni heldur eru þær allar hvíta
         circle(random(width),random(height),randomGaussian(3))                                  //þrátt fyrir að þær líti út fyrir að hreifast að ofan og niður þá eru þær bara að velja random staðsetningu innan skjásins
     }
-}
-
-function music(){
-    
 }
 

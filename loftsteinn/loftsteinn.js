@@ -1,12 +1,18 @@
+let ele;
+
 function setup() 
 {
     createCanvas(windowWidth,windowHeight)
     noCursor()
     frameRate(15)    
     noStroke()
+    ele = createAudio("../assets/loftsteinn.mp3")
+    ele.play(true)
+    ele.loop(true)
 }
 
 let u=0
+let vol=0
 
 function draw() 
 {   
