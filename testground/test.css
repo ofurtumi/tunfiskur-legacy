@@ -172,6 +172,7 @@ img {
 	transition: all 0.0s;
     cursor: pointer;
 }
+
 .sub:hover {
     color: #000000;
     background-color: #07b605;
