@@ -156,3 +156,23 @@ img {
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {color: black;}
+
+.sub {
+	display: inline-block;
+	padding: 0.35em 1.2em;
+	border: 0.1em solid #000000;
+	margin: 0 0.3em 0.3em 0;
+	border-radius: .35em;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Roboto',sans-serif;
+	font-weight: 600;
+	color: #000000;
+	background-color: #08cf06;
+	transition: all 0.0s;
+    cursor: pointer;
+}
+.sub:hover {
+    color: #000000;
+    background-color: #07b605;
+}
