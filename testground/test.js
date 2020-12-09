@@ -1,16 +1,17 @@
-let veg_batar_max = 1
-let batar_max = 16
+let veg_batar_max = 2
+let batar_max = 17
 
-let veg_auka_max = 1
-let auka_max = 4
+let veg_auka_max = 2
+let auka_max = 5
 
 let veg_sosur_max = 8
 let sosur_max = 14
 
+let v_pontun = ""
+
 let staerd = [
   "Stór",
-  "Lítill"
-]
+  "Lítill"]
 
 let batar = [
   "Grænmetissæla",
@@ -29,8 +30,7 @@ let batar = [
   "Bræðingur",
   "Teriyaki kjúklingur",
   "BLT",
-  "Túnfisksalat"
-]
+  "Túnfisksalat"]
 
 let alegg = [
   "Gúrka",
@@ -42,16 +42,14 @@ let alegg = [
   "Jalapeno",
   "Bananapipar",
   "Ólífur",
-  "Gular baunir"
-]
+  "Gular baunir"]
 
 let auka = [
-  "Ekkert",
-  "Grænmetisbuff",
-  "Ostur",
-  "Beikon",
-  "Kjúklingur"
-]
+  "Ekkert auka",
+  "Auka grænmetisbuff",
+  "Auka ostur",
+  "Auka beikon",
+  "Auka kjúklingur"]
 
 let allar_sosur = [
   "Hunangssinnep",
@@ -68,8 +66,7 @@ let allar_sosur = [
   "Chili majónes",
   "BBQ sósa",
   "Bernessósa",
-  "Ostasósa"
-]
+  "Ostasósa"]
 
 let vegan_sosur = [
   "Hunangssinnep",
@@ -80,8 +77,7 @@ let vegan_sosur = [
   "Sterkt sinnep",
   "Ólífuolía",
   "Pizzasósa",
-  "Southwest sósa"
-]
+  "Southwest sósa"]
     
 function Rnd(min, max) {
   return Math.floor(Math.random() * (max - min) ) + min;
@@ -102,32 +98,41 @@ function getRandom(arr, n) {
   return result;
 }
 
+function textReturn(value, index, array) {
+  v_pontun = v_pontun + value + "<br>";
+  return v_pontun 
+}
 
 function rndBatar(max_b,max_a,sosa){
+  v_pontun =""
   let v_staerd = staerd[Rnd(0,2)]
   let v_batur = batar[Rnd(0,max_b)]
+  let v_auka = auka[Rnd(0,max_a)]
 
   let v_alegg
   let graenmeti = Rnd(1,20)
+  let g_magn = Rnd(1,8)
 
   if (graenmeti != 1){
-    v_alegg = getRandom(alegg,Rnd(0,8))
+    v_alegg = getRandom(alegg,g_magn)
   }
   else{
-    v_alegg = "Ekkert"
+    v_alegg = "Ekkert grænmeti"
   }
-
-  let v_auka = auka[Rnd(1,max_a)]
 
   let v_sosa
   let sosur = Rnd(1,20)
+  let s_magn = Rnd(1,4)
 
   if (sosur != 1){
-    v_sosa = getRandom(sosa,Rnd(0,4))
+    v_sosa = getRandom(sosa,s_magn)
   }
   else{
-    v_sosa = "Engin"
+    v_sosa = "Engin Sósa"
   }
 
-  return [v_staerd,v_batur, v_alegg, v_auka, v_sosa]
+  var pontun = [v_staerd,v_batur,v_auka,v_alegg,v_sosa]
+
+  pontun.forEach(textReturn)
+  return v_pontun
 }

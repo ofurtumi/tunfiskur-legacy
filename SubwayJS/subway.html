@@ -2,12 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Loftsteinn</title>
+        <title>Subbay</title>
         <link rel="stylesheet" type="text/css" href="../style.css">
-
-        <script src="libraries/p5.min.js"></script>
-        <script src="libraries/p5.sound.js"></script>
-
     </head>
     <body>
         <nav>
@@ -37,8 +33,17 @@
                 <li><a href="/index.html">Heim</a></li>
             </ul>
         </nav>
-        <pj>
-        <script src="loftsteinn.js"></script>
-        </pj>
+        <script src="subway.js"></script>
+        <div class="fyrirsogn">
+        <h1><b>Subbay</b></h1>
+        </div>
+        <div class="container">
+            <p>
+                <button class="sub" type="button" onclick="document.getElementById('batur').innerHTML = rndBatar(batar_max,auka_max,allar_sosur)">Bátur</button>
+                <button class="sub" type="button" onclick="document.getElementById('batur').innerHTML = rndBatar(veg_batar_max,veg_auka_max,vegan_sosur)">Vegan bátur</button>
+                <p id="batur"></p>
+            </p>
+        </div>
+        
     </body>
 </html>
