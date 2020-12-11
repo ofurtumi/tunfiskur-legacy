@@ -13,6 +13,10 @@ let staerd = [
   "Stór",
   "Lítill"]
 
+let braud = [
+  
+]
+
 let batar = [
   "Grænmetissæla",
   "Grænmetisbuff",
