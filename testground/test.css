@@ -44,6 +44,11 @@ p.center{
     text-align: center;
 }
 
+.huge{
+    text-align: center;
+    font-size: xx-large;
+}
+
 ul{
     grid-column-start: 2;
     grid-column-end: 3;
