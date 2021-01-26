@@ -10,7 +10,6 @@ h1{
   top: 3%;
   color: white;
   text-align: center;
-  
 }
 
 a{
@@ -22,7 +21,7 @@ a{
   position: relative;
   width: 100%;
   height: 100px;
-  background: black;
+  background:none;
   overflow: hidden;
 }
 
@@ -36,10 +35,24 @@ a{
 .container{
   display: grid;
   grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 20em;
+  text-align: center;
 }
 
 .container heimildir{
   display: none;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+.testbox{
+  margin: auto;
+  width: 50%;
+  border: 3px solid #73AD21;
+  padding: 1em;
 }
 
 p{
@@ -51,11 +64,9 @@ p{
 }
 
 ul{
-  grid-column-start: 2;
-  grid-column-end: 3;
   font-family: Verdana;
   font-size: large;
-
+  margin: auto;
 }
 
 ul a{
@@ -70,51 +81,24 @@ ul heimildir{
 
 nav{
   position: fixed;
+  padding-top: 1em;
+  padding-bottom: 2em;
   z-index: 9999;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 2em;
-}
-
-nav ul{
-  list-style: none;
-  margin: 0;
-  padding: .2em 2em;
-  float: right;
+  text-align: center;
 }
 
 nav ul li{
   display: inline-block;
-  margin: 0;
-  padding: 0 .2em;
-}
-
-nav a{
-  width: 100%;
-  height: 100%;
-  color: white;
-  text-decoration: none;
+  padding: 0 .25em;
+  color: black;
   font-family: verdana;
-  font-size: 1.15em;
-  font-weight: lighter;
-  letter-spacing: 1px;
-  transition: .25s ease-in-out;
+  font-size: 1.25em;
 }
 
 nav a:hover{
-  color: black;
-}
-
-.nav-bg{
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 120%;
-  z-index: -1;
-  background: gray;
-  transition: .45s ease-in-out;
+  color: rgb(58, 58, 58);
 }
 
 img {
@@ -125,47 +109,6 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
-.dropbtn {
-  background-color: gray;
-  color: white;
-  padding-bottom: .4em;
-  font-size: 1.15em;
-  font-weight: lighter;
-  letter-spacing: 1px;
-  border: none;
-  cursor: pointer;
-  transition: .25s ease-in-out;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-  font-family: Verdana;
-  transition: .45s ease-in-out;
-
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 12px;
-  text-decoration: none;
-  display: block;
-
-}
-
-.dropdown-content a:hover {background-color: gray;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {color: black;}
 
 .sub {
 	display: inline-block;
@@ -184,6 +127,6 @@ img {
 }
 
 .sub:hover {
-    color: #000000;
-    background-color: #07b605;
+  color: #000000;
+  background-color: #07b605;
 }
