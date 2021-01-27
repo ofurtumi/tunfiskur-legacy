@@ -1,43 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title>Subbay</title>
-        <link rel="stylesheet" type="text/css" href="../style.css">
-    </head>
-    <body>
-        <nav>
-            <div class="nav-bg"></div>
-            <ul>
-                <li>
-                <div class="dropdown">
-                <button class="dropbtn">Forritun</button>
-                <div class="dropdown-content">
-                <a href="/RangerWebGL/">Leikur</a>
-                <a href="/loftsteinn/loftsteinn.html">Loftsteinn</a>
-                <a href="/listaverk/listaverk.html">Listaverk</a>
-                <a href="/andlit/andlit.html">Andlit</a>
-                <a href="/SubwayJS/subway.html">Subbay</a>
-                </div>
-                </div>
-                </li>
-                <li>
-                <div class="dropdown">
-                <button class="dropbtn">Saga</button>
-                <div class="dropdown-content">
-                <a href="/tunfisksalat/tunfisksalat.html">Túnfisksalat</a>
-                </div>
-                </div>
-                </li>
-                <li><a href="/testground/test.html">Testground</a></li>
-                <li><a href="/index.html">Heim</a></li>
+        <title>Subbay</title>  
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/forritunarhub.css">
+      </head>
+      <body>
+        <a href="/index.html">
+          <img class="logo-tunfiskur"/>
+        </a>
+    
+        <div class="header">
+            <ul class="menu">
+              <li><a href="/testground/test.html">Test</a></li>
+              <li><a href="/forritunarhub/forritunarhub.html">Verkefni</a></li>
+              <li><a href="/index.html">Heim</a></li>
             </ul>
-        </nav>
-        <script src="subway.js"></script>
-        <div class="fyrirsogn">
-        <h1><b>Subbay</b></h1>
         </div>
-        <div class="container">
+        
+        <script src="subway.js"></script>
+        
+        <div class="verkefni">
+            <div class="verkefni-innra">
+
+            </div>
+        </div>
+
+        <div class="takkar">
             <p>
                 <button class="sub" type="button" onclick="document.getElementById('batur').innerHTML = rndBatar(batar_max,auka_max,allar_sosur)">Bátur</button>
                 <button class="sub" type="button" onclick="document.getElementById('batur').innerHTML = rndBatar(veg_batar_max,veg_auka_max,vegan_sosur)">Vegan bátur</button>
