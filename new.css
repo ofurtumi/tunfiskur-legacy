@@ -113,6 +113,7 @@ body {
   .butt {
     background: #13192e;
     color: #7b84a8;
+    font-size: 1.4rem;
     padding: 10px;
     border-radius: 10px;
     margin: 0px 10px;
@@ -123,17 +124,22 @@ body {
   }
 
 .butt:hover {
-    background: #7b84a8;
-    color: #13192e;
+  background: #7b84a8;
+  color: #13192e;
 }
 
-  .batageymsla {
-    background: #13192e;
-    color: #7b84a8;
-    max-width: 300px;
-    height: 150px;
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin: 25px auto;
-    font-weight: 500;
-  }
+.batageymsla {
+  background: #13192e;
+  color: #7b84a8;
+  max-width: 300px;
+  height: 12rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 25px auto;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.bataprent {
+  max-width: 300px;
+}

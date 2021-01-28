@@ -37,51 +37,51 @@ let batar = [
   "Túnfisksalat"]
 
 let alegg = [
-  "Gúrka",
-  "Tómatar",
-  "Laukur",
-  "Kál",
-  "Spínat",
-  "Paprika",
-  "Jalapeno",
-  "Bananapipar",
-  "Ólífur",
-  "Gular baunir"]
+  " Gúrka",
+  " Tómatar",
+  " Laukur",
+  " Kál",
+  " Spínat",
+  " Paprika",
+  " Jalapeno",
+  " Bananapipar",
+  " Ólífur",
+  " Gular‎‏‏‎ ‎baunir"]
 
 let auka = [
-  "Ekkert auka",
-  "Auka grænmetisbuff",
-  "Auka ostur",
-  "Auka beikon",
-  "Auka kjúklingur"]
+  " Ekkert auka",
+  " Auka grænmetisbuff",
+  " Auka ostur",
+  " Auka beikon",
+  " Auka kjúklingur"]
 
 let allar_sosur = [
-  "Hunangssinnep",
-  "Vegan majónes",
-  "Sætt sinnep",
-  "Sætlauksósa",
-  "Rauðvínsedik",
-  "Sterkt sinnep",
-  "Ólífuolía",
-  "Pizzasósa",
-  "Southwest sósa",
-  "Létt majónes",
-  "Sterk buffalósósa",
-  "Chili majónes",
-  "BBQ sósa",
-  "Bernessósa",
-  "Ostasósa"]
+  " Hunangssinnep",
+  " Vegan majónes",
+  " Sætt sinnep",
+  " Sætlauksósa",
+  " Rauðvínsedik",
+  " Sterkt sinnep",
+  " Ólífuolía",
+  " Pizzasósa",
+  " Southwest sósa",
+  " Létt majónes",
+  " Sterk buffalósósa",
+  " Chili majónes",
+  " BBQ sósa",
+  " Bernessósa",
+  " Ostasósa"]
 
 let vegan_sosur = [
-  "Hunangssinnep",
-  "Vegan majónes",
-  "Sætt sinnep",
-  "Sætlauksósa",
-  "Rauðvínsedik",
-  "Sterkt sinnep",
-  "Ólífuolía",
-  "Pizzasósa",
-  "Southwest sósa"]
+  " Hunangssinnep",
+  " Vegan majónes",
+  " Sætt sinnep",
+  " Sætlauksósa",
+  " Rauðvínsedik",
+  " Sterkt sinnep",
+  " Ólífuolía",
+  " Pizzasósa",
+  " Southwest sósa"]
     
 function Rnd(min, max) {
   return Math.floor(Math.random() * (max - min) ) + min;
@@ -135,7 +135,7 @@ function rndBatar(max_b,max_a,sosa){
     v_sosa = "Engin Sósa"
   }
 
-  var pontun = [v_staerd,v_batur,v_auka,v_alegg,v_sosa]
+  var pontun = [v_staerd, v_batur, v_auka, v_alegg, v_sosa]
 
   pontun.forEach(textReturn)
   return v_pontun
