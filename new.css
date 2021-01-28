@@ -54,12 +54,12 @@ body {
     padding: 0 1.5rem;
   }
   
-  .verkefni {
+  .container {
     background: #465075;
     padding: 10px;
   }
   
-  .verkefni p {
+  .container p {
     text-align: center;
     font-weight: light;
     margin: 5px;
@@ -105,7 +105,7 @@ body {
     color: #13192e;
   }
 
-  .container {
+  .sub-container {
     display: flex;
     justify-content: center;
   }

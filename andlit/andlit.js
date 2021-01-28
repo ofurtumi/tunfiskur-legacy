@@ -1,19 +1,19 @@
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight/1.5);
   xCenter = windowWidth / 2;
-  yCenter = windowHeight / 2;
+  yCenter = windowHeight / 3;
   haka = 225;
   augu = 1.5;
   nefOffset = 7;
   s1 = createAudio("assets/chant2.mp3")
   augnlitur = "white"
-  bColor = "darkblue"
+  bColor =  "#13192e";
 }
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
-  xCenter = windowWidth / 2;
-  yCenter = windowHeight / 2;
+  xCenter = windowWidth / 1.5;
+  yCenter = windowHeight / 1.5;
 }
 
 function draw() {
@@ -121,7 +121,7 @@ function draw() {
     ellipse(xCenter,yCenter+200,100,55)
     augnlitur = "black"
     haka = 255;
-    bColor = "darkred"
+    bColor = "#13192e"
     
   }
   else{
@@ -132,6 +132,6 @@ function draw() {
     stroke(0,0,0)
     line(xCenter-30,yCenter+200,xCenter+30,yCenter+200)
     augnlitur = "white"
-    bColor = "darkblue"
+    bColor = "#465075"
   }
 }

@@ -2,7 +2,7 @@ let ele;
 
 function setup() 
 {
-    createCanvas(windowWidth,windowHeight)
+    createCanvas(windowWidth,windowHeight/1.25)
     noCursor()
     frameRate(15)    
     noStroke()
