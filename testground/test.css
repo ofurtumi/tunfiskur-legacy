@@ -1,184 +1,95 @@
-body{
+body {
     margin: 0;
-    padding: 0;
-    background-color: black;
-    color: rgb(0, 255, 0);
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: peachpuff;
+  }
+  
+  .header {
+    padding: 10px 0px;
+    background-color: #7A2C25;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
 }
-
-h1{
-    position: absolute;
-    top: 3%;
-    color: rgb(0, 255, 0);
-    text-align: center;
-    
-}
-
-.fyrirsogn{
-    position: relative;
-    width: 100%;
-    height: 100px;
-    background: black;
-    overflow: hidden;
-}
-
-.fyrirsogn h1{
-    position: center;
-    top: 25%;
-    width: 100%;
-    font-weight: lighter;
-}
-
-.container{
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
-}
-
-p{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    font-family: Verdana;
-    font-size: large;
-}
-
-p.center{
-    text-align: center;
-}
-
-.huge{
-    text-align: center;
-    font-size: xx-large;
-}
-
-ul{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    font-family: Verdana;
-    font-size: large;
-
-}
-
-ul li{
-    list-style: circle;
-}
-
-nav{
-    position: fixed;
-    z-index: 9999;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 2em;
-}
-
-nav ul{
+  
+  .menu {
     list-style: none;
-    margin: 0;
-    padding: .2em 2em;
-    float: right;
-}
-
-nav ul li{
-    display: inline-block;
-    margin: 0;
-    padding: 0 .2em;
-}
-
-nav a{
-    width: 100%;
-    height: 100%;
+    display: flex;
+  }
+  
+  .menu a {
     color: white;
     text-decoration: none;
-    font-family: verdana;
-    font-size: 1.15em;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    transition: .25s ease-in-out;
-}
-
-nav a:hover{
-    color: black;
-}
-
-.nav-bg{
-    content: "";
-    position: absolute;
     display: block;
-    width: 100%;
-    height: 120%;
-    z-index: -1;
-    background: gray;
-    transition: .45s ease-in-out;
+    font-size: 24px;
+    transition: 0.25s;
+  }
+  
+  .menu a:hover {
+    color: gray;
+    transform: scale(1.25);
+  }
+  
+  .menu li {
+    margin: 0 2em;
+  }
+  
+  .middle {
+    background-color: #FA3B2C;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .middle h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  .middle p {
+    font-size: 1.2rem;
+    line-height: 1.3;
+  }
+  
+  .middle-content {
+    max-width: 750px;
+  }
+  
+  .button {
+    background-color: #C10;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    display: inline-block;
+    transition: .3s
+  }
+  
+  .button:hover {
+    background-color: #C005;
+    transform: scale(1.15)
+  }
+
+.features {
+  background-color: #FB5A4B;
+  padding: 20px 30px;
 }
 
-img {
-    display: block;
+.features-innra {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 25px;
+}
+
+.featured-item {
+    background-color: rgb(95, 8, 0);
+    color: white;
+    border-radius: 20px;
     padding: 1em;
-    width: 300px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .dropbtn {
-    background-color: gray;
-    color: white;
-    padding-bottom: .4em;
-    font-size: 1.15em;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    border: none;
-    cursor: pointer;
-    transition: .25s ease-in-out;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    font-family: Verdana;
-    transition: .45s ease-in-out;
-
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-
-  }
-  
-  .dropdown-content a:hover {background-color: gray;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {color: black;}
-
-.sub {
-	display: inline-block;
-	padding: 0.35em 1.2em;
-	border: 0.1em solid #000000;
-	margin: 0 0.3em 0.3em 0;
-	border-radius: .35em;
-	box-sizing: border-box;
-	text-decoration: none;
-	font-family: 'Roboto',sans-serif;
-	font-weight: 600;
-	color: #000000;
-	background-color: #08cf06;
-	transition: all 0.0s;
-    cursor: pointer;
-}
-
-.sub:hover {
-    color: #000000;
-    background-color: #07b605;
+    margin: 10px;
 }

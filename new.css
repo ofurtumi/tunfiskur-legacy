@@ -2,16 +2,16 @@ body {
     margin: 0 0;
     font-family: 'Teko', sans-serif;
     background: #7983a8;
-  }
+}
   
-  .header {
+.header {
     background-color: #27325c;
     padding: 0px 0;
     display: flex;
     justify-content: center;
-  }
+}
   
-  .logo-tunfiskur {
+.logo-tunfiskur {
     padding: 10px 15px;
     margin: 5px 0;
     bottom: 0px;
@@ -20,22 +20,22 @@ body {
     content:url("tunfiskur-closed.png");
     width: 135px;
     transition: .1s;
-  }
+}
   
-  .logo-tunfiskur:hover {
+.logo-tunfiskur:hover {
     content:url("tunfiskur-open.png");
     transform: scale(1.05);
-  }
+}
   
-  .menu {
+.menu {
     list-style: none;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding-inline-start: 0;
-  }
+}
   
-  .menu a {
+.menu a {
     text-decoration: none;
     color: #7b84a8;
     display: block;
@@ -43,74 +43,74 @@ body {
     padding: 0 15px;
     font-weight: light;
     transition: .5s;
-  }
+}
   
-  .menu a:hover {
+.menu a:hover {
     color: #6985f5;
     transform: scale(1.2);
-  }
+}
   
-  .menu li {
+.menu li {
     padding: 0 1.5rem;
-  }
+}
   
-  .container {
+.container {
     background: #465075;
     padding: 10px;
-  }
+}
   
-  .container p {
+.container p {
     text-align: center;
     font-weight: light;
     margin: 5px;
-  }
+}
   
-  .fyrirsogn {
+.fyrirsogn {
     font-size: 2rem;
     color: #13192e;
     margin: 0;
     padding: 0;
     text-align: center;
-  }
+}
   
-  .verkefni-innra {
+.verkefni-innra {
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-column-gap: 20px;
     text-align: center;
-  }
+}
   
-  .verkefni-innra a {
+.verkefni-innra a {
     text-decoration: none;
-  }
+}
   
-  .verkefni-single {
+.verkefni-single {
     background: #13192e;
     color: #7983a8;
     border-radius: 12px;
     margin: 1em;
     padding: 5px;
     transition: .15s;
-  }
+}
   
-  .verkefni-single p {
+.verkefni-single p {
     font-weight: medium;
     font-size: 1.2rem
-  }
+}
   
-  .verkefni-single:hover {
+.verkefni-single:hover {
     background: #7983a8;
     color: #13192e;
-  }
+}
 
-  .sub-container {
+.sub-container {
     display: flex;
     justify-content: center;
-  }
+}
 
-  .butt {
+.butt {
     background: #13192e;
     color: #7b84a8;
     font-size: 1.4rem;
@@ -121,7 +121,7 @@ body {
     user-select: none;
     font-weight: 800;
     transition: .2s;
-  }
+}
 
 .butt:hover {
   background: #7b84a8;
@@ -142,4 +142,53 @@ body {
 
 .bataprent {
   max-width: 300px;
+}
+
+.ferilskra-titill {
+    background: #465075;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 100px;
+    align-content: center;
+}
+
+.ferilskra-titill h1 {
+    font-size: 10em;
+    font-weight: 900;
+    margin: auto 0;
+    padding: 0 50px;
+    color: #13192e;
+}
+
+.ferilskra-titill img {
+    border: 10px solid #7b84a8;
+}
+
+.ferilskra-grid {
+    display: grid;
+    grid-template-columns: 3fr 8fr;
+}
+
+.ferilskra-grid h3 {
+    align-content: center;
+    margin: 5px;
+    font-size: 2rem;
+}
+
+.um-mig {
+    display: grid;
+    background: #13192e;
+    color: #7b84a8;
+    grid-template-columns: 1fr;
+}
+
+.yfir {
+    margin: auto;
+}
+
+.starfsreynsla {
+    background: #7b84a8;
+    color: #13192e;
+    display: flex;
+    justify-content: center;
 }
