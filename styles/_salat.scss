@@ -1,0 +1,21 @@
+.tunfiskur {
+    margin: 50px 25%;
+    font-size: 1.75em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tunfisksmynd {
+    transform: rotate(90deg);
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.heimildir {
+    list-style-type: none;
+    font-size: larger;
+    margin: auto;
+    padding: 20px 50px;
+}

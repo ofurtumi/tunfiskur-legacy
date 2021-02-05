@@ -1,0 +1,89 @@
+.ferilskra-titill {
+    background: $l4;
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px;
+    align-content: center;
+
+    h1 {
+        font-size: 8em;
+        font-weight: 900;
+        margin: auto 0;
+        padding: 0 25px;
+        color: $l5;
+    }
+
+    img {
+        border: 10px solid $l1;
+    }
+}
+
+.ferilskra-grid {
+    display: grid;
+    grid-template-columns: 3fr 8fr;
+
+    h3 {
+        align-content: center;
+        margin: 5px;
+        font-size: 2rem;
+    }
+}
+
+.um-mig {
+  display: flex;
+  justify-content: center;
+  background: $l5;
+  color: $l1;
+}
+
+.yfir {
+    margin: auto;
+}
+
+.starfsreynsla {
+    background: $l1;
+    color: $l5;
+    display: flex;
+    justify-content: center;
+}
+
+.um-mig-nidri {
+  background: $l1;
+  color: $l5;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 10px;
+
+  p {
+    margin: 5px 20px;
+  }
+}
+
+.starfsreynsla-nidri {
+  background: $l5;
+  color: $l1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.starf {
+  background: $l1;
+  color: $l5;
+  margin: 15px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.3rem;
+
+  h4 {
+    padding: 0px;
+    margin: 0px;
+  
+  }
+
+  h5 {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
