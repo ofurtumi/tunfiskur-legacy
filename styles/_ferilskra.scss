@@ -1,9 +1,9 @@
+@import "./mixins";
+
 .ferilskra-titill {
     background: $l4;
-    display: flex;
-    justify-content: center;
+    @include flex(center);
     padding: 20px 100px;
-    align-content: center;
 
     h1 {
         font-size: 8em;
@@ -30,8 +30,7 @@
 }
 
 .um-mig {
-  display: flex;
-  justify-content: center;
+  @include flex(center);
   background: $l5;
   color: $l1;
 }
@@ -43,8 +42,7 @@
 .starfsreynsla {
     background: $l1;
     color: $l5;
-    display: flex;
-    justify-content: center;
+    @include flex(center);
 }
 
 .um-mig-nidri {
@@ -83,7 +81,6 @@
   h5 {
     padding: 0px;
     margin: 0px;
-    display: flex;
-    justify-content: flex-end;
+    @include flex (flex-end);
   }
 }

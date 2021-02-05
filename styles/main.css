@@ -6,9 +6,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 20px 100px;
   -ms-flex-line-pack: center;
       align-content: center;
+  padding: 20px 100px;
 }
 
 .ferilskra-titill h1 {
@@ -44,6 +44,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   background: #13192e;
   color: #7983a8;
 }
@@ -61,6 +63,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .um-mig-nidri {
@@ -107,6 +111,8 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .sub-container {
@@ -116,6 +122,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .butt {
@@ -171,6 +179,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   width: 35%;
   margin: 0px auto;
   padding: 10px;
@@ -218,6 +228,505 @@
   font-size: 1.2rem;
 }
 
+/* [1] */
+/* [2] */
+/* [3] */
+/* [4] */
+/* [5] */
+/* [6] */
+/* Styles: */
+.icon {
+  position: relative;
+  background: white;
+  cursor: pointer;
+  margin: auto;
+  color: black;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  line-height: 300px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  -webkit-transition: 0.24s 0.2s;
+  transition: 0.24s 0.2s;
+}
+
+.icon:hover {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.heimsm {
+  position: absolute;
+  top: -150px;
+  left: -150px;
+  border: 300px solid transparent;
+  cursor: default;
+  border-radius: 50%;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform 1.4s 0.07s;
+  transition: -webkit-transform 1.4s 0.07s;
+  transition: transform 1.4s 0.07s;
+  transition: transform 1.4s 0.07s, -webkit-transform 1.4s 0.07s;
+  z-index: -5;
+}
+
+.spread {
+  position: absolute;
+  top: -200px;
+  left: -200px;
+  -webkit-transform-origin: 200px 200px;
+          transform-origin: 200px 200px;
+  -webkit-transition: all 0.5s 0.1s;
+  transition: all 0.5s 0.1s;
+  font-size: 2.45em;
+}
+
+.icon:hover {
+  /* Where all the MAGIC happens: */
+}
+
+.icon:hover .heimsm {
+  -webkit-transition: z-index   0s  0.5s, -webkit-transform 0.4s 0.08s;
+  transition: z-index   0s  0.5s, -webkit-transform 0.4s 0.08s;
+  transition: transform 0.4s 0.08s, z-index   0s  0.5s;
+  transition: transform 0.4s 0.08s, z-index   0s  0.5s, -webkit-transform 0.4s 0.08s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  z-index: 5;
+}
+
+.icon:hover .spread, .icon:hover .unit {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.icon:hover .spread:nth-child(1) {
+  -webkit-transform: rotate(66.17647deg);
+          transform: rotate(66.17647deg);
+}
+
+.icon:hover .spread:nth-child(1) .unit {
+  -webkit-transform: rotate(653.82353deg);
+          transform: rotate(653.82353deg);
+}
+
+.icon:hover .spread:nth-child(2) {
+  -webkit-transform: rotate(87.35294deg);
+          transform: rotate(87.35294deg);
+}
+
+.icon:hover .spread:nth-child(2) .unit {
+  -webkit-transform: rotate(632.64706deg);
+          transform: rotate(632.64706deg);
+}
+
+.icon:hover .spread:nth-child(3) {
+  -webkit-transform: rotate(108.52941deg);
+          transform: rotate(108.52941deg);
+}
+
+.icon:hover .spread:nth-child(3) .unit {
+  -webkit-transform: rotate(611.47059deg);
+          transform: rotate(611.47059deg);
+}
+
+.icon:hover .spread:nth-child(4) {
+  -webkit-transform: rotate(129.70588deg);
+          transform: rotate(129.70588deg);
+}
+
+.icon:hover .spread:nth-child(4) .unit {
+  -webkit-transform: rotate(590.29412deg);
+          transform: rotate(590.29412deg);
+}
+
+.icon:hover .spread:nth-child(5) {
+  -webkit-transform: rotate(150.88235deg);
+          transform: rotate(150.88235deg);
+}
+
+.icon:hover .spread:nth-child(5) .unit {
+  -webkit-transform: rotate(569.11765deg);
+          transform: rotate(569.11765deg);
+}
+
+.icon:hover .spread:nth-child(6) {
+  -webkit-transform: rotate(172.05882deg);
+          transform: rotate(172.05882deg);
+}
+
+.icon:hover .spread:nth-child(6) .unit {
+  -webkit-transform: rotate(547.94118deg);
+          transform: rotate(547.94118deg);
+}
+
+.icon:hover .spread:nth-child(7) {
+  -webkit-transform: rotate(193.23529deg);
+          transform: rotate(193.23529deg);
+}
+
+.icon:hover .spread:nth-child(7) .unit {
+  -webkit-transform: rotate(526.76471deg);
+          transform: rotate(526.76471deg);
+}
+
+.icon:hover .spread:nth-child(8) {
+  -webkit-transform: rotate(214.41176deg);
+          transform: rotate(214.41176deg);
+}
+
+.icon:hover .spread:nth-child(8) .unit {
+  -webkit-transform: rotate(505.58824deg);
+          transform: rotate(505.58824deg);
+}
+
+.icon:hover .spread:nth-child(9) {
+  -webkit-transform: rotate(235.58824deg);
+          transform: rotate(235.58824deg);
+}
+
+.icon:hover .spread:nth-child(9) .unit {
+  -webkit-transform: rotate(484.41176deg);
+          transform: rotate(484.41176deg);
+}
+
+.icon:hover .spread:nth-child(10) {
+  -webkit-transform: rotate(256.76471deg);
+          transform: rotate(256.76471deg);
+}
+
+.icon:hover .spread:nth-child(10) .unit {
+  -webkit-transform: rotate(463.23529deg);
+          transform: rotate(463.23529deg);
+}
+
+.icon:hover .spread:nth-child(11) {
+  -webkit-transform: rotate(277.94118deg);
+          transform: rotate(277.94118deg);
+}
+
+.icon:hover .spread:nth-child(11) .unit {
+  -webkit-transform: rotate(442.05882deg);
+          transform: rotate(442.05882deg);
+}
+
+.icon:hover .spread:nth-child(12) {
+  -webkit-transform: rotate(299.11765deg);
+          transform: rotate(299.11765deg);
+}
+
+.icon:hover .spread:nth-child(12) .unit {
+  -webkit-transform: rotate(420.88235deg);
+          transform: rotate(420.88235deg);
+}
+
+.icon:hover .spread:nth-child(13) {
+  -webkit-transform: rotate(320.29412deg);
+          transform: rotate(320.29412deg);
+}
+
+.icon:hover .spread:nth-child(13) .unit {
+  -webkit-transform: rotate(399.70588deg);
+          transform: rotate(399.70588deg);
+}
+
+.icon:hover .spread:nth-child(14) {
+  -webkit-transform: rotate(341.47059deg);
+          transform: rotate(341.47059deg);
+}
+
+.icon:hover .spread:nth-child(14) .unit {
+  -webkit-transform: rotate(378.52941deg);
+          transform: rotate(378.52941deg);
+}
+
+.icon:hover .spread:nth-child(15) {
+  -webkit-transform: rotate(362.64706deg);
+          transform: rotate(362.64706deg);
+}
+
+.icon:hover .spread:nth-child(15) .unit {
+  -webkit-transform: rotate(357.35294deg);
+          transform: rotate(357.35294deg);
+}
+
+.icon:hover .spread:nth-child(16) {
+  -webkit-transform: rotate(383.82353deg);
+          transform: rotate(383.82353deg);
+}
+
+.icon:hover .spread:nth-child(16) .unit {
+  -webkit-transform: rotate(336.17647deg);
+          transform: rotate(336.17647deg);
+}
+
+.icon:hover .spread:nth-child(17) {
+  -webkit-transform: rotate(405deg);
+          transform: rotate(405deg);
+}
+
+.icon:hover .spread:nth-child(17) .unit {
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
+}
+
+/* END .icon:hover */
+.unit {
+  position: absolute;
+  background: white;
+  font-size: 60%;
+  text-decoration: none;
+  width: 74px;
+  height: 74px;
+  line-height: 74px;
+  color: white;
+  border-radius: 50%;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.unit:hover {
+  color: black;
+}
+
+/* Just CodePen layout stuff: */
+body, a, ul, li {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html, body {
+  height: 100%;
+  min-height: 600px;
+}
+
+body {
+  font-family: sans-serif;
+  background: black;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.icon {
+  top: 50%;
+  margin-top: -150px;
+}
+
+.rigning {
+  background: black;
+  width: 100%;
+  height: 80%;
+}
+
+.stjarna {
+  background: yellow;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.stjarna:nth-child(1) {
+  position: absolute;
+  left: 18%;
+  top: 62%;
+}
+
+.stjarna:nth-child(2) {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+}
+
+.stjarna:nth-child(3) {
+  position: absolute;
+  left: 92%;
+  top: 80%;
+}
+
+.stjarna:nth-child(4) {
+  position: absolute;
+  left: 39%;
+  top: 29%;
+}
+
+.stjarna:nth-child(5) {
+  position: absolute;
+  left: 79%;
+  top: 2%;
+}
+
+.stjarna:nth-child(6) {
+  position: absolute;
+  left: 30%;
+  top: 15%;
+}
+
+.stjarna:nth-child(7) {
+  position: absolute;
+  left: 25%;
+  top: 71%;
+}
+
+.stjarna:nth-child(8) {
+  position: absolute;
+  left: 72%;
+  top: 44%;
+}
+
+.stjarna:nth-child(9) {
+  position: absolute;
+  left: 49%;
+  top: 52%;
+}
+
+.stjarna:nth-child(10) {
+  position: absolute;
+  left: 48%;
+  top: 6%;
+}
+
+.stjarna:nth-child(11) {
+  position: absolute;
+  left: 36%;
+  top: 8%;
+}
+
+.stjarna:nth-child(12) {
+  position: absolute;
+  left: 84%;
+  top: 77%;
+}
+
+.stjarna:nth-child(13) {
+  position: absolute;
+  left: 46%;
+  top: 6%;
+}
+
+.stjarna:nth-child(14) {
+  position: absolute;
+  left: 2%;
+  top: 44%;
+}
+
+.stjarna:nth-child(15) {
+  position: absolute;
+  left: 74%;
+  top: 35%;
+}
+
+.stjarna:nth-child(16) {
+  position: absolute;
+  left: 58%;
+  top: 2%;
+}
+
+.stjarna:nth-child(17) {
+  position: absolute;
+  left: 66%;
+  top: 74%;
+}
+
+.stjarna:nth-child(18) {
+  position: absolute;
+  left: 96%;
+  top: 12%;
+}
+
+.stjarna:nth-child(19) {
+  position: absolute;
+  left: 13%;
+  top: 47%;
+}
+
+.stjarna:nth-child(20) {
+  position: absolute;
+  left: 69%;
+  top: 1%;
+}
+
+.stjarna:nth-child(21) {
+  position: absolute;
+  left: 45%;
+  top: 64%;
+}
+
+.stjarna:nth-child(22) {
+  position: absolute;
+  left: 56%;
+  top: 9%;
+}
+
+.stjarna:nth-child(23) {
+  position: absolute;
+  left: 17%;
+  top: 27%;
+}
+
+.stjarna:nth-child(24) {
+  position: absolute;
+  left: 91%;
+  top: 46%;
+}
+
+.stjarna:nth-child(25) {
+  position: absolute;
+  left: 79%;
+  top: 44%;
+}
+
+.stjarna:nth-child(26) {
+  position: absolute;
+  left: 66%;
+  top: 18%;
+}
+
+.stjarna:nth-child(27) {
+  position: absolute;
+  left: 56%;
+  top: 38%;
+}
+
+.stjarna:nth-child(28) {
+  position: absolute;
+  left: 64%;
+  top: 52%;
+}
+
+.stjarna:nth-child(29) {
+  position: absolute;
+  left: 41%;
+  top: 42%;
+}
+
+.stjarna:nth-child(30) {
+  position: absolute;
+  left: 97%;
+  top: 67%;
+}
+
+.stjarna:nth-child(31) {
+  position: absolute;
+  left: 18%;
+  top: 26%;
+}
+
+.stjarna:nth-child(32) {
+  position: absolute;
+  left: 20%;
+  top: 1%;
+}
+
+.stjarna:nth-child(33) {
+  position: absolute;
+  left: 96%;
+  top: 37%;
+}
+
 body {
   margin: 0 0;
   font-family: 'Teko', sans-serif;
@@ -233,6 +742,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .logo-tunfiskur {
@@ -258,12 +769,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -webkit-padding-start: 0;
           padding-inline-start: 0;
 }

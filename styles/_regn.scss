@@ -1,0 +1,23 @@
+$star-size: random($limit: 10);
+
+.rigning {
+    background: black;
+    width: 100%;
+    height: 80%;
+}
+
+.stjarna {
+    background: yellow;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+@for $i from 1 to 34 {
+    .stjarna:nth-child(#{$i}){
+        position: absolute;
+        left: random($limit: 100)+%;
+        top: random($limit: 80)+%;
+    }
+}
+    

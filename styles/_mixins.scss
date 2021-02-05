@@ -1,0 +1,11 @@
+@mixin demo {
+    color:black;
+    background: blue;
+    font-size: xx-large;
+}
+
+@mixin flex ($justifyType) {
+    display: flex;
+    justify-content: $justifyType;
+    align-content: center;
+}

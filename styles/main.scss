@@ -12,6 +12,9 @@ $l5: #13192e;
 @import "./subway";
 @import "./salat";
 @import "./hub";
+@import "./heimsmarkmid";
+@import "./mixins";
+@import "./regn";
 
 //globals
 body {
@@ -19,12 +22,11 @@ body {
     font-family: 'Teko', sans-serif;
     background: $l1;
 }
-  
+
 .header {
     background-color: $l2;
     padding: 0px 0;
-    display: flex;
-    justify-content: center;
+    @include flex(center)
 }
   
 .logo-tunfiskur {
@@ -46,9 +48,7 @@ body {
   
 .menu {
     list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    @include flex(center);
     padding-inline-start: 0;
 
     a {
