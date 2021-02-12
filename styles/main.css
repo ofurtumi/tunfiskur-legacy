@@ -493,9 +493,7 @@
 
 /* Just CodePen layout stuff: */
 body, a, ul, li {
-  margin: 0;
-  outline: 0;
-  padding: 0;
+  margin: auto;
   list-style: none;
 }
 
@@ -531,200 +529,200 @@ body {
 
 .stjarna:nth-child(1) {
   position: absolute;
-  left: 18%;
-  top: 62%;
+  left: 76%;
+  bottom: 78%;
 }
 
 .stjarna:nth-child(2) {
   position: absolute;
-  left: 50%;
-  top: 75%;
+  left: 61%;
+  bottom: 49%;
 }
 
 .stjarna:nth-child(3) {
   position: absolute;
-  left: 92%;
-  top: 80%;
+  left: 5%;
+  bottom: 50%;
 }
 
 .stjarna:nth-child(4) {
   position: absolute;
-  left: 39%;
-  top: 29%;
+  left: 99%;
+  bottom: 73%;
 }
 
 .stjarna:nth-child(5) {
   position: absolute;
-  left: 79%;
-  top: 2%;
+  left: 53%;
+  bottom: 80%;
 }
 
 .stjarna:nth-child(6) {
   position: absolute;
-  left: 30%;
-  top: 15%;
+  left: 92%;
+  bottom: 78%;
 }
 
 .stjarna:nth-child(7) {
   position: absolute;
-  left: 25%;
-  top: 71%;
+  left: 81%;
+  bottom: 33%;
 }
 
 .stjarna:nth-child(8) {
   position: absolute;
-  left: 72%;
-  top: 44%;
+  left: 43%;
+  bottom: 38%;
 }
 
 .stjarna:nth-child(9) {
   position: absolute;
-  left: 49%;
-  top: 52%;
+  left: 97%;
+  bottom: 43%;
 }
 
 .stjarna:nth-child(10) {
   position: absolute;
-  left: 48%;
-  top: 6%;
+  left: 55%;
+  bottom: 39%;
 }
 
 .stjarna:nth-child(11) {
   position: absolute;
-  left: 36%;
-  top: 8%;
+  left: 92%;
+  bottom: 65%;
 }
 
 .stjarna:nth-child(12) {
   position: absolute;
-  left: 84%;
-  top: 77%;
+  left: 23%;
+  bottom: 79%;
 }
 
 .stjarna:nth-child(13) {
   position: absolute;
-  left: 46%;
-  top: 6%;
+  left: 8%;
+  bottom: 79%;
 }
 
 .stjarna:nth-child(14) {
   position: absolute;
-  left: 2%;
-  top: 44%;
+  left: 4%;
+  bottom: 33%;
 }
 
 .stjarna:nth-child(15) {
   position: absolute;
-  left: 74%;
-  top: 35%;
+  left: 25%;
+  bottom: 37%;
 }
 
 .stjarna:nth-child(16) {
   position: absolute;
-  left: 58%;
-  top: 2%;
+  left: 52%;
+  bottom: 35%;
 }
 
 .stjarna:nth-child(17) {
   position: absolute;
-  left: 66%;
-  top: 74%;
+  left: 20%;
+  bottom: 57%;
 }
 
 .stjarna:nth-child(18) {
   position: absolute;
-  left: 96%;
-  top: 12%;
+  left: 37%;
+  bottom: 54%;
 }
 
 .stjarna:nth-child(19) {
   position: absolute;
   left: 13%;
-  top: 47%;
+  bottom: 49%;
 }
 
 .stjarna:nth-child(20) {
   position: absolute;
-  left: 69%;
-  top: 1%;
+  left: 36%;
+  bottom: 21%;
 }
 
 .stjarna:nth-child(21) {
   position: absolute;
-  left: 45%;
-  top: 64%;
+  left: 35%;
+  bottom: 64%;
 }
 
 .stjarna:nth-child(22) {
   position: absolute;
-  left: 56%;
-  top: 9%;
+  left: 63%;
+  bottom: 31%;
 }
 
 .stjarna:nth-child(23) {
   position: absolute;
-  left: 17%;
-  top: 27%;
+  left: 9%;
+  bottom: 59%;
 }
 
 .stjarna:nth-child(24) {
   position: absolute;
-  left: 91%;
-  top: 46%;
+  left: 52%;
+  bottom: 79%;
 }
 
 .stjarna:nth-child(25) {
   position: absolute;
-  left: 79%;
-  top: 44%;
+  left: 80%;
+  bottom: 74%;
 }
 
 .stjarna:nth-child(26) {
   position: absolute;
-  left: 66%;
-  top: 18%;
+  left: 60%;
+  bottom: 38%;
 }
 
 .stjarna:nth-child(27) {
   position: absolute;
-  left: 56%;
-  top: 38%;
+  left: 7%;
+  bottom: 38%;
 }
 
 .stjarna:nth-child(28) {
   position: absolute;
-  left: 64%;
-  top: 52%;
+  left: 51%;
+  bottom: 36%;
 }
 
 .stjarna:nth-child(29) {
   position: absolute;
-  left: 41%;
-  top: 42%;
+  left: 15%;
+  bottom: 69%;
 }
 
 .stjarna:nth-child(30) {
   position: absolute;
-  left: 97%;
-  top: 67%;
+  left: 58%;
+  bottom: 64%;
 }
 
 .stjarna:nth-child(31) {
   position: absolute;
-  left: 18%;
-  top: 26%;
+  left: 27%;
+  bottom: 73%;
 }
 
 .stjarna:nth-child(32) {
   position: absolute;
-  left: 20%;
-  top: 1%;
+  left: 67%;
+  bottom: 32%;
 }
 
 .stjarna:nth-child(33) {
   position: absolute;
-  left: 96%;
-  top: 37%;
+  left: 18%;
+  bottom: 40%;
 }
 
 body {
@@ -760,8 +758,6 @@ body {
 
 .logo-tunfiskur:hover {
   content: url("../tunfiskur-open.png");
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
 }
 
 .menu {
