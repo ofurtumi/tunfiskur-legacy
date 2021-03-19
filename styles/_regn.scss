@@ -16,8 +16,8 @@ $star-size: random($limit: 10);
 @for $i from 1 to 34 {
     .stjarna:nth-child(#{$i}){
         position: absolute;
-        left: random($limit: 100)+%;
-        top: random($limit: 80)+%;
+        left: percentage(random(100) / 100);
+        bottom: percentage(0.2 + random(60) / 100);
     }
 }
     
