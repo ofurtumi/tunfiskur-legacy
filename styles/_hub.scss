@@ -1,31 +1,31 @@
-.verkefni-innra {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-column-gap: 20px;
-    text-align: center;
+// .verkefni-innra {
+//     max-width: 1000px;
+//     margin: 0 auto;
+//     display: grid;
+//     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+//     grid-column-gap: 20px;
+//     text-align: center;
 
-    a {
-        text-decoration: none;
-    }
-}
+//     a {
+//         text-decoration: none;
+//     }
+// }
     
-.verkefni-single {
-    background: $l5;
-    color: $l1;
-    border-radius: 12px;
-    margin: 1em;
-    padding: 5px;
-    transition: .15s;
+// .verkefni-single {
+//     background: $l5;
+//     color: $l1;
+//     border-radius: 12px;
+//     margin: 1em;
+//     padding: 5px;
+//     transition: .15s;
 
-    &:hover {
-        background: $l1;
-        color: $l5;
-    }
+//     &:hover {
+//         background: $l1;
+//         color: $l5;
+//     }
 
-    p {
-        font-weight: medium;
-        font-size: 1.2rem
-    }
-}
+//     p {
+//         font-weight: medium;
+//         font-size: 1.2rem
+//     }
+// }
