@@ -1,0 +1,15 @@
+.overhead {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 10%;
+}
+
+.simm {
+    content:url("../tunfiskur-closed.png");
+    width: 250px;
+
+    &:hover {
+        content:url("../tunfiskur-open.png");
+    }
+}

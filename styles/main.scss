@@ -14,11 +14,16 @@ $l5: #13192e;
 @import "./hub";
 @import "./heimsmarkmid";
 @import "./mixins";
-@import "./regn";
+@import "./test";
 
 
 
 //globals
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     margin: 0 0;
     font-family: 'Teko', sans-serif;
@@ -43,6 +48,7 @@ body {
     
     &:hover {
         content:url("../tunfiskur-open.png");
+        transform: scale(1.05);
     }
 
 }
