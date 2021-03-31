@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bleikur {
+  width: 40%;
+  background: pink;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid black;
+}
+
+.g1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+}
+
+.g1 .oku-mynd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+.g1 .oku-mynd img {
+  width: 5em;
+  height: 5em;
+}
+
+.g1 .oku-mynd .texti {
+  margin-left: 0.75em;
+  margin-top: 1.5em;
+}
+
+.g1 .oku-mynd .texti h2 {
+  margin: 0px;
+}
+
+.g1 .oku-mynd .texti h3 {
+  margin: 0px;
+  font-size: 1.24em;
+}
+
+.g1 .h-u-horn p {
+  margin: 0;
+  padding: 0;
+  text-align: end;
+}
+/*# sourceMappingURL=main.css.map */

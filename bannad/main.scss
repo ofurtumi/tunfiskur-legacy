@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bleikur {
+    width: 40%;
+    background: pink;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 14px;
+    border: 1px solid black;
+}
+
+.g1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    .oku-mynd {
+        display: flex;
+
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+
+        img {
+            width: 5em;
+            height: 5em;
+        }
+        .texti {
+            margin-left: 0.75em;
+            margin-top: 1.5em;
+            h2 {
+                margin: 0px;
+            }
+            h3 {
+                margin: 0px;
+                font-size: 1.24em;
+            }
+        }
+    }
+
+    .h-u-horn {
+
+        p {
+            margin: 0;
+            padding: 0;
+            text-align: end;
+        }
+        
+    }
+}
