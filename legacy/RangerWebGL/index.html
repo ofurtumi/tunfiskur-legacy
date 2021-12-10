@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ranger</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="TemplateData/style.css">
+        <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/RangerWebGL-noDamage.json", {onProgress: UnityProgress});
+    </script>
+    </head>
+    <body>
+        <a href="./index.html">
+            <img class="logo-tunfiskur"/>
+        </a>
+
+        <div class="header">
+            <ul class="menu">
+              <li><a href="./index.html">Heim</a></li>
+              <li><a href="./forritunarhub/forritunarhub.html">Verkefni</a></li>
+              <li><a href="./testground/test.html">Test</a></li>
+              <li><a href="./ferilskra/ferilskra.html">Ferilskrá</a></li>
+            </ul>
+        </div>
+
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+        <p>WASD til að hreyfa, Space til að hoppa, J til að nota sverð, K til að skjóta boga.<br> Takk Baldur Skúlason fyrir tónlistina</p>
+    </div>
+  </div>
+  </body>
+</html>

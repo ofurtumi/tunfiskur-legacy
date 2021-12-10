@@ -1,3 +1,3 @@
-# ofurtumi.github.io
+# tunfiskur.com
 
-Repository fyrir kóðann fyrir vefsíðuna mína tunfiskur.com
+## github pages fyrir ýmis repo
