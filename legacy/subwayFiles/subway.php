@@ -14,10 +14,10 @@
             <nav>
                 <div class="nav-bg"></div>
                     <ul>
-                        <li><a href="./verkefni%201/index.html">Verkefni 1</a></li>
-                        <li><a href="./verkefni%202/andlit.html">Andlit</a></li>
-                        <li><a href="./subwayFiles/subway.php?">Subway</a></li>
-                        <li><a href="./index.html">Heim</a></li>
+                        <li><a href="../verkefni%201/index.html">Verkefni 1</a></li>
+                        <li><a href="../verkefni%202/andlit.html">Andlit</a></li>
+                        <li><a href="../subwayFiles/subway.php?">Subway</a></li>
+                        <li><a href="../index.html">Heim</a></li>
                     </ul>
             </nav>
         <center>
